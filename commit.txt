@@ -1,0 +1,2 @@
+This commit was pushed by command "npm run git"
+// "postgit": "git push --all"

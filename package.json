@@ -5,8 +5,7 @@
   "main": "modeChanger.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "git": "git add . && git commit -m",
-    "postgit": "git push --all"
+    "git": "git add . && git commit -m \"commited by command 'npm run git'\""
   },
   "author": "",
   "license": "ISC"
