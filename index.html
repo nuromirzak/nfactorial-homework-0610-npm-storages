@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="display-6 my-3">
+        Lecture 7 - NPM & Local Storages - Friday, June 10
+        <button id="themeChanger" type="button" class="btn btn-dark">
+          Enable Dark Mode
+        </button>
+      </h1>
+
+      <form>
+        <div class="row mb-3">
+          <label for="cookie-key" class="col-4 col-lg-1">Cookie name</label>
+          <div class="col-8 col-lg-4">
+            <input type="text" class="form-control" id="cookie-key" />
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="cookie-value" class="col-4 col-lg-1"
+            >Cookie value</label
+          >
+          <div class="col-8 col-lg-4">
+            <input type="text" class="form-control" id="cookie-value" />
+          </div>
+        </div>
+        <div class="alert alert-dark" role="alert">
+          Default expirationDate - следующая неделя среда
+        </div>
+        <button
+          id="setCookie"
+          type="submit"
+          class="btn btn-primary mb-3 col-12 col-lg-1"
+        >
+          Set cookie
+        </button>
+      </form>
+
+      <p class="h1">All cookies</p>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Key</th>
+            <th scope="col">Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <tr>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="modeChanger.js"></script>
+  </body>
+</html>
